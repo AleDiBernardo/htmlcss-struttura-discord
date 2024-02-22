@@ -8,3 +8,80 @@
 img {
     max-width: 100%;
 }
+
+
+/* UTILITIES */
+
+li {
+    list-style: none;
+}
+
+ul.flex {
+    justify-content: space-evenly;
+}
+
+/* A TAG */
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* HEADER */
+header {
+    /* debug */
+    background-color: green;
+}
+
+.header-bar {
+    /* debug */
+    height: 100px;
+    background-color: red;
+}
+
+/* Logo-side */
+.logo-side {
+    flex-basis: 20%;
+    background-color: orange;
+}
+
+/* Middle section */
+.middle-section {
+    flex-basis: 40%;
+    background-color: blue; 
+    flex-direction: row;
+}
+
+/* login-side */
+.login-side {
+    flex-basis: 20%;
+    background-color: orange;
+}
+
+
+/* MAIN */
+main {
+
+    /* DEBUG */
+    height: 800px;
+    background-color: blue;
+}
+
+/* FOOTER */
+footer {
+
+    /* DEBUG */
+    height: 200px;
+    background-color: green;
+}
+
+.flex {
+    display: flex;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
