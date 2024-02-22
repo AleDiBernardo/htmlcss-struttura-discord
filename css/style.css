@@ -29,12 +29,14 @@ img {
     display: flex;
 }
 
+/* CONTAINER */
 .container {
     width: 80%;
     justify-content: center;
     align-items: center;
     padding: 30px 0;
 }
+
 
 .mar-auto {
     margin: 0 auto;
@@ -179,6 +181,14 @@ main {
     padding: 20px;
     justify-content: space-between;
 }
+
+.ftr-container {
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
 
 
 
