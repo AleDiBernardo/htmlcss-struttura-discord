@@ -8,6 +8,7 @@
 body {
     font-family: monospace;
     font-size: 25px;
+    color: white;
 }
 
 img {
@@ -24,23 +25,30 @@ img {
     flex-direction: row-reverse;
 }
 
+.flex {
+    display: flex;
+}
+
+.container {
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+
 .mar-auto {
     margin: 0 auto;
 }
-/* LIST TAG */
 
-/* li */
+/* TAG */
 li {
     list-style: none;
 }
 
-/* ul */
 ul.flex {
     justify-content: space-evenly;
 }
 
-
-/* ANCOR TAG */
 a {
     color: white;
     text-decoration: none;
@@ -56,6 +64,14 @@ a {
 .third-section,
 .fifth-section {
     background-color: #D3D3D3;
+}
+
+.signup-btn,
+.footer-logo {
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #F08080;
 }
 
 
@@ -138,27 +154,9 @@ main {
 
 
 /* FOOTER */
-footer {
-
-    /* DEBUG */
-    background-color: green;
-}
-
 .footer-label {
     background-color: #23272A;
 }
-
-.flex {
-    display: flex;
-}
-
-.container {
-    width: 80%;
-    justify-content: center;
-    align-items: center;
-    padding: 30px 0;
-}
-
 
 .box {
     flex-grow: 1;
@@ -182,11 +180,5 @@ footer {
     justify-content: space-between;
 }
 
-.signup-btn,
-.footer-logo {
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    background-color: #F08080;
-}
+
 
