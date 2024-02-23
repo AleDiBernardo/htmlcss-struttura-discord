@@ -29,18 +29,20 @@ img {
     display: flex;
 }
 
+.mar-auto {
+    margin: 0 auto;
+}
+
+
 /* CONTAINER */
 .container {
     width: 80%;
     justify-content: center;
     align-items: center;
     padding: 30px 0;
+    max-width: 1180px;
 }
 
-
-.mar-auto {
-    margin: 0 auto;
-}
 
 /* TAG */
 li {
@@ -85,8 +87,9 @@ a {
 }
 
 /* Logo-side */
-.logo-side {
-    flex-grow: 1;
+.logo-side,
+.login-side {
+    width: 20%;
 }
 
 /* Middle section */
@@ -97,7 +100,6 @@ a {
 
 /* login-side */
 .login-side {
-    flex-grow: 1;
     text-align: end;
 }
 
@@ -112,11 +114,6 @@ a {
 
 
 /* MAIN */
-main {
-
-    /* DEBUG */
-    background-color: #00008B;
-}
 
 /* FIRST SECTION */
 .first-section {
@@ -127,7 +124,7 @@ main {
 
 .first-box {
     width: 1100px;
-    height: 600px;
+    min-height: 600px;
     background-color: #EE82EE;
 }
 
@@ -135,21 +132,21 @@ main {
 
 /* left-box */
 .left-box {
-    flex-grow: 2;
-    height: 600px;
+    width: 70%;
+    min-height: 600px;
     background-color: #1E90FF;
 }
 
 .right-box {
     flex-grow: 1;
-    height: 600px;
+    min-height: 600px;
     background-color: #FFC0CB;
 }
 
 /* FIFTH SECTION */
 .rectangle {
-    flex-grow: 1;
-    height: 800px;
+    width: 100%;
+    min-height: 800px;
     background-color: #228B22;
 }
 
@@ -161,22 +158,26 @@ main {
 }
 
 .box {
-    flex-grow: 1;
-    height: 900px;
+    width: 25%;
+    min-height: 900px;
     background-color: #20B2AA;
     border: 3px dashed white;
 }
 
 #pink-box {
-    flex-grow: 2;
+    width: 30%;
     background-color: #F08080;
     border: 3px dashed black;
 
 }
 
+.col-70 {
+    width: 70%;
+}
+
 .signup-section {
     width: 100%;
-    height: 100px;
+    min-height: 100px;
     background-color: #7FFFD4;
     padding: 20px;
     justify-content: space-between;
